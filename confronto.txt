@@ -1,0 +1,17 @@
+Superheroi Ciclope= new
+  Superheroi("Ciclope","ScottSummers");
+Ciclope.AdicionarSuperPoder(4)
+
+//_______________________________________________________________________
+  
+Vilao Avalanche= new
+  Vilao("Avalanche","Dominic")
+Avalanche.AdicionarSuperPoder(3)
+
+
+//_____________________________________________________________________
+
+confronto batalha1 = new confronto(Ciclope,Avalanche);
+Criar a variavel do vencedor;
+int vencedor = batalha1.Vencedor();
+ batalha1.executar(Ciclope,Avalanche );

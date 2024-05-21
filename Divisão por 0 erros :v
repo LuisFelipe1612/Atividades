@@ -1,0 +1,24 @@
+public class Teste {
+  public static void main(String[] args) {
+    String n=" 100" ,  d=" 0";
+    try {
+      int num = Integer. valueOf (n);
+      int den = Integer. valueOf (d);
+      int div = num / den;
+      
+    }
+    catch (NumberFormatException e1) {
+      System.out.println("Erro de formatação");
+    }
+    catch (ArithmeticException e2) {
+      System.out.println("Dividido por 0. Erro de divisão");
+    }
+    catch (Exception e3) {
+      System.out.println ("A operação falhou devido a um erro desconhecido");
+    }
+    finally {
+      System.out.println ("Fim da operação '-'");
+    }
+  }
+  
+}
